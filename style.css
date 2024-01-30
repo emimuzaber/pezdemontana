@@ -1,0 +1,182 @@
+
+@import url('https://fonts.cdnfonts.com/css/avigea');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap'); 
+
+/* font-family: 'Avigea', sans-serif;
+font-family: 'Cormorant Garamond', serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* styles NAV*/
+
+.nav-container {
+    background-color: #154360;
+}
+
+.lista-container {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center; 
+    padding: 10px;
+    
+}
+
+.enlace-nav {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.enlace-nav:hover{
+    color: aqua;
+}
+
+.logo-nav{
+    width: 100px;
+    height: 85px;
+}
+
+/* Style footer */
+
+footer{
+    background-color: #154360 ;
+    margin: 20px 0px;
+}
+
+.section-footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 20px;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.redes a{
+    color: aqua;   
+}
+
+#ig-footer{
+    width: 30px ;
+    height: 30px ;
+    margin: 15px ;
+}
+
+#tiktok-footer{
+    width: 30px ;
+    height: 30px ;
+    margin: 15px ; 
+}
+
+.contacto{
+    text-align: center;
+    font-size: 70%;
+}
+/* Style pagina inicio */
+
+#bienvenida{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    color: white;
+    font-family: 'Avigea', sans-serif;
+    font-size: 45px;
+}
+
+#imagenInicio{
+    width: 100%;
+    height: 100%;
+}
+
+/* .section-inicio{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;   
+} */
+
+.boton-inicio{
+    display: inline-flex;
+    position: relative;
+    bottom: 500px;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    background-color: #154360;
+    color: white;
+    font-family: 'Avigea', sans-serif;
+    font-size: 20px;
+}
+
+
+/*Style página Carta*/
+
+.titulos-carta{
+    display: flex;
+    justify-content:space-around;
+    border: 2px solid #154360;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#imagen-pag-carta{
+    width: 500px;
+    height: 600px;
+}
+
+/*Style pagina reservas*/
+
+#titulo-reservas{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#imagen-reserva{
+    width: 400px;
+    height: 700px;
+}
+
+
+
+
+/* Style página contacto*/
+
+#contacto-titulo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#logo-whatsapp-contacto{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*Style página galeria*/
+
+#galeria-titulo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#video{
+    display: flex;
+    justify-content: center;
+        
+}
+
+#video-galeria{
+    width: 700px;
+    height: 400px;
+}
+
