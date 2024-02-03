@@ -95,12 +95,6 @@ footer{
     height: 100%;
 }
 
-/* .section-inicio{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;   
-} */
-
 .boton-inicio{
     display: inline-flex;
     position: relative;
@@ -121,15 +115,22 @@ footer{
 .titulos-carta{
     display: flex;
     justify-content:space-around;
-    border: 2px solid #154360;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#imagen-pag-carta{
-    width: 500px;
-    height: 600px;
+#seleccion-carta{
+    display: flex;
+    justify-content: space-around;
 }
+
+#carouselExampleFade{
+    width: 25%;
+    height: 25%; 
+    margin: auto; 
+    
+}
+
 
 /*Style pagina reservas*/
 
@@ -143,6 +144,7 @@ footer{
     width: 400px;
     height: 700px;
 }
+
 
 
 
