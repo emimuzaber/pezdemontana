@@ -127,41 +127,30 @@ footer{
     text-align: center;
 }
 
-.hamburguesa{
+.hamburguesa, .papas{
     grid-column: 1 / 3;
-    background-color: #7FE2D8;
+    background-color: #f77594;
 }
 
-.lomos{
+.bebida, .tragosC{
     grid-column: 2 / 4;
     background-color: #7FE2D8
 }
 
-.bebida{
-    grid-column: 1 / 3;
+.pizza, .lomos, .gastronomia{
+    background-color: #f77594;
+}
+
+.cerveza, .tragosA, .bebidas{
     background-color: #7FE2D8
 }
-
-.tragosC{
-    grid-column: 2 / 4;
-    background-color: #7FE2D8
+.carta-descripcion{
+    display: flex;
+    justify-content:space-around;
+    
 }
 
-.papas{
-    background-color: #f77594;
-}
 
-.pizza{
-    background-color: #f77594;
-}
-
-.cerveza{
-    background-color: #f77594;
-}
-
-.tragosA{
-    background-color: #f77594;
-}
 
 /*Style pagina reservas*/
 
