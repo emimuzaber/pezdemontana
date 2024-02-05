@@ -77,7 +77,14 @@ footer{
 
 .contacto{
     text-align: center;
-    font-size: 70%;
+}
+
+.contacto h3{
+    font-size: 20px;
+}
+
+.contacto p{
+    font-size: 10px;
 }
 /* Style pagina inicio */
 
@@ -146,10 +153,24 @@ footer{
 }
 .carta-descripcion{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;  
     
 }
 
+.gastronomia, .bebidas{
+    width: 50%;
+}
+
+.carta-descripcion div p{
+    font-style: italic;
+}
+
+.carta-descripcion div h3{
+    text-align: center;
+}
+.carta-descripcion div li{
+    font-weight: bold;
+}
 
 
 /*Style pagina reservas*/
