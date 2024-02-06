@@ -79,6 +79,12 @@ footer{
     margin: 15px ; 
 }
 
+.logo-sillon-footer{
+    color: white;
+    width: 150px;
+    height: 150px;
+}
+
 .contacto{
     text-align: center;
     line-height: 5%;
@@ -188,25 +194,25 @@ footer{
 }
 
 #imagen-reserva{
-    width: 300px;
-    height: 490px;
-    margin-right: 100px ;
+    width: 350px;
+    height: 550px;
     border-radius: 0 10px 10px 0;
+    margin-top: 15px;
 }
 
 .container-form{
     display: flex;
-    justify-content: space-around;
-    width: 900px;
-    height: 500px;
-    align-items: center;
-    
-    
+    justify-content: center;
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+   
 }
 
 #form-reserva{
-    margin-left: 100px;
-    margin-right: 20px;
+    border: solid #154360;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
 
 }
 
