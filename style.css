@@ -194,8 +194,8 @@ footer{
 }
 
 #imagen-reserva{
-    width: 350px;
-    height: 550px;
+    width: 500px;
+    height: 600px;
     border-radius: 0 10px 10px 0;
     margin-top: 15px;
 }
@@ -212,7 +212,7 @@ footer{
 #form-reserva{
     border: solid #154360;
     border-radius: 10px 0 0 10px;
-    padding: 10px;
+    padding: 5px;
 
 }
 
@@ -227,6 +227,17 @@ footer{
     margin-top: 150px;
     margin-bottom: 20px;
     font-family: 'Avigea', sans-serif;
+}
+
+.seccion-info-contacto{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.seccion-contacto{
+    display: flex;
+    justify-content: space-around;
 }
 
 #logo-whatsapp-contacto{

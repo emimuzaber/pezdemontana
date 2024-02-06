@@ -25,36 +25,45 @@
 
     <h1 id="contacto-titulo">CONTACTO</h1>
 
-    <div>
-        <h2>Encontranos acá</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13272.342752042623!2d-69.1183877!3d-33.7326003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967c3d301b10416b%3A0x13f5cbc77196bad7!2sPez%20de%20Monta%C3%B1a!5e0!3m2!1ses!2sar!4v1705351195927!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+    <section class="seccion-info-contacto">
+        <div>
+            <h2>Encontranos acá</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13272.342752042623!2d-69.1183877!3d-33.7326003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967c3d301b10416b%3A0x13f5cbc77196bad7!2sPez%20de%20Monta%C3%B1a!5e0!3m2!1ses!2sar!4v1705351195927!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
 
-    <form id="formulario-contacto">
-        <legend>Dejanos tu mensaje</legend>
+        <form class="form-contacto">
+            <h2>Dejanos tu Mensaje</h2>
+            <div class="row-6">
+              <label for="inputName" class="col-6 col-form-label">Nombre y Apellido</label>
+              <input type="name" class="form-control" id="inputName">
+            </div>
+            <div class="row-6">
+              <label for="inputEmail" class="col-6 col-form-label">E-mail</label>
+              <input type="email" class="form-control" id="inputEmail">
+            </div>
+            <div class="row-6">
+                <label for="inputMensaje" class="col-6 col-form-label">Mensaje</label>
+                <input type="text" class="form-control" id="inputMensaje">
+              </div>
+            
+              
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+    
+    </section>
 
-        <label for="nombre">Nombre</label>
-        <input type="text">
-
-        <label for="email">E-mail</label>
-        <input type="email" name="" id="">
-
-        <label for="mensaje">Mensaje</label>
-        <input type="text">
-
-        <button type="submit">Enviar</button>
-    </form>
-
-
-   <div>
-    <h2>Dirección</h2>
-    <p>Sixto Videla Norte 302, La Consulta, San Carlos - Mendoza</p>
-   </div>
-
-   <div>
-    <h2>Nuestro WhatsApp</h2>
-    <a href="https://api.whatsapp.com/send/?phone=542622383808&text&type=phone_number&app_absent=0"><img id="logo-whatsapp-contacto" src="../multimedia/whatsapp.png" alt="ícono whatsapp"></a>
-   </div>
+    <section class="seccion-contacto">
+        <div>
+            <h2>Dirección</h2>
+            <p>Sixto Videla Norte 302, La Consulta, San Carlos - Mendoza</p>
+           </div>
+        
+           <div>
+            <h2>Nuestro WhatsApp</h2>
+            <a href="https://api.whatsapp.com/send/?phone=542622383808&text&type=phone_number&app_absent=0"><img id="logo-whatsapp-contacto" src="../multimedia/whatsapp.png" alt="ícono whatsapp"></a>
+           </div>
+    </section>
+   
 
     <footer>
         <section class="section-footer">
