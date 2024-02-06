@@ -19,6 +19,7 @@ font-family: 'Cormorant Garamond', serif; */
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 100;
     
 }
 
@@ -51,7 +52,6 @@ font-family: 'Cormorant Garamond', serif; */
 
 footer{
     background-color: #154360 ;
-    margin: 20px 0px;
 }
 
 .section-footer{
@@ -103,7 +103,8 @@ footer{
 }
 
 .div-bienvenida{
-    margin-top: 50px;
+    margin-top: 55px;
+    margin-bottom: 0;
 }
 
 #imagenInicio{
@@ -119,7 +120,7 @@ footer{
     width: 25%;
     height: 25%; 
     margin: auto; 
-    margin-top: 150px;
+    margin-top: 120px;
     
 }
 
@@ -187,8 +188,26 @@ footer{
 }
 
 #imagen-reserva{
-    width: 400px;
-    height: 700px;
+    width: 300px;
+    height: 490px;
+    margin-right: 100px ;
+    border-radius: 0 10px 10px 0;
+}
+
+.container-form{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    height: 500px;
+    align-items: center;
+    
+    
+}
+
+#form-reserva{
+    margin-left: 100px;
+    margin-right: 20px;
+
 }
 
 

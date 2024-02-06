@@ -25,29 +25,42 @@
 
     <h1 id="titulo-reservas">RESERVAS</h1>
     
-    <form id="formulario-reservas">
-
-        <label for="nombre"> Nombre y Apellido</label>
-        <input type="text">
-
-        <label for="fecha">Fecha</label>
-        <input type="date" name="" id="">
-
-        <label for="pax">Cantidad de Personas</label>
-        <input type="number" name="" id="">
-
-        <label for="contacto">Teléfono de Contacto</label>
-        <input type="number" name="" id="">
-
-        <label for="restricciones">Informanos si hay alguna restricción alimenticia</label>
-        <input type="text">
-
-    </form>
-
-    <div>
-        <img id="imagen-reserva" src="../multimedia/brindisPez.png.jpeg" alt="imagen reservas">
-    </div>
-
+    <section class="seccion-reservas">
+            
+        <div class="container-form">
+            <form id="form-reserva" class="row g-3 mt-3">
+                <div class="col-12">
+                    <label for="nombreInput" class="form-label">Nombre y Apellido</label>
+                    <input type="nombre" class="form-control" id="nombreImput" placeholder="Escribe tu Nombre y Apellido">
+                </div>
+                <div class="col-12">
+                    <label for="inputDate" class="form-label">Fecha</label>
+                    <input type="date" class="form-control" id="inputDate" placeholder="Selecciona fecha de reserva">
+                </div>
+                <div class="col-12">
+                    <label for="inputPax" class="form-label">Cantidad de Personas</label>
+                    <input type="number" class="form-control" id="inputPax" placeholder="Ingrese numero de personas">
+                </div>
+                <div class="col-12">
+                    <label for="inputContacto" class="form-label">Teléfono de Contacto</label>
+                    <input type="number" class="form-control" id="inputContacto" placeholder="Ingresa tu número de telefono sin guiones ni separaciones">
+                </div>
+                <div class="col-12">
+                    <label for="inputRestricciones" class="form-label">Restricciones Alimentarias</label>
+                    <input type="text" class="form-control" id="inputRestricciones" placeholder="En caso de poseer alguna restriccio alimentaria, por favor informar">
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Reservar</button>
+                </div>
+            </form>
+            <div>
+                <img id="imagen-reserva" src="../multimedia/brindisPez.png.jpeg" alt="imagen reservas">
+            </div>
+            
+        </div>
+    
+    </section>
+    
     <footer>
         <section class="section-footer">
             <div class="redes">
