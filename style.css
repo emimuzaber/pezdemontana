@@ -60,11 +60,6 @@ font-family: 'Cormorant Garamond', serif; */
         display: none !important;
     }
 
-    .logo-nav-mobile{
-        width: 50%;
-        height: 15%;
-    }
-
     #bienvenida{
         font-size: 2px;
     }
