@@ -48,6 +48,29 @@ font-family: 'Cormorant Garamond', serif; */
     height: 85px;
 }
 
+/*style para mobile*/
+
+@media only screen and (min-width:375px ) and (max-width:760px ){
+    .lista-container{
+        display: inline; 
+        padding: 5px;
+    }
+    
+    .logo-nav, .contacto{
+        display: none !important;
+    }
+
+    .logo-nav-mobile{
+        width: 50%;
+        height: 15%;
+    }
+
+    #bienvenida{
+        font-size: 2px;
+    }
+    
+}
+
 /* Style footer */
 
 footer{
