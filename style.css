@@ -54,6 +54,7 @@ font-family: 'Cormorant Garamond', serif; */
     .lista-container{
         display: inline; 
         padding: 5px;
+        width: 100%;
     }
     
     .logo-nav, .contacto{
@@ -335,7 +336,6 @@ footer{
     object-fit: cover;
     
 }
-
 
 
 #bar3{
