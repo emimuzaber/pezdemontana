@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container{
+    background-color: #154360;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    .lista-container{
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        align-items: center; 
+        padding: 10px;
+        .logo-nav{
+            width: 100px;
+            height: 85px;
+            .enlace-nav{
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+
+                &:hover{
+                    color: aqua;
+                }
+            }
+        }
+    }
+}

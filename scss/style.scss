@@ -1,4 +1,13 @@
-body{
-    background-color: blue;
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+
 }
+
+ @import 'components/header';
+ @import 'components/footer';
+ @import 'components/carta';
+ @import 'components/reservas';
+ @import 'components/contacto';
+ @import 'components/galeria';
+ @import 'components/index';

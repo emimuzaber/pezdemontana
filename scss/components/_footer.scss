@@ -1,0 +1,33 @@
+footer{
+    background-color:#154360  ;
+    .section-footer{
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        margin: 20px;
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+        .redes{
+            #ig-footer{
+                width: 30px ;
+                height: 30px ;
+                margin: 15px ;
+            }
+            #tiktok-footer{
+                width: 30px ;
+                height: 30px ;
+                margin: 15px ;
+            }
+        }
+        .contacto{
+            text-align: center;
+            line-height: 5%;
+            p{
+                font-size: 10px; 
+            }
+            h3{
+                font-size: 20px;
+            }
+        }
+}
