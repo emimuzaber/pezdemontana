@@ -9,24 +9,37 @@
     width: 100%;
     top: 0;
     z-index: 100;
+
+    
     .lista-container{
         display: flex;
         justify-content: space-around;
         list-style: none;
         align-items: center; 
         padding: 10px;
+
+        @media only screen and (min-width:375px) and (max-width:760px) {
+            
+            display: inline;
+        }
         .logo-nav{
             width: 100px;
             height: 85px;
-            .enlace-nav{
-                color: white;
-                text-decoration: none;
-                font-size: 20px;
+        }
+        .enlace-nav{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
 
-                &:hover{
-                    color: aqua;
-                }
+            &:hover{
+                color: aqua;
             }
+        
         }
     }
 }
+
+
+
+
+
