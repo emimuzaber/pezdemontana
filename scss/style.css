@@ -42,6 +42,22 @@
   color: aqua;
 }
 
+.navbar {
+  background-color: #154360;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+}
+.navbar .img-nav {
+  width: 100px;
+  height: 85px;
+}
+.navbar .nav-item {
+  font-size: 20px;
+  color: white;
+}
+
 footer {
   background-color: #154360;
 }
