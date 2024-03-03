@@ -1,5 +1,5 @@
 @import '../base/variables';
- 
+@import 'header'; 
 
 .carrusel{
     #carouselExampleFade{
@@ -21,9 +21,14 @@
             border: solid 2px black;
             font-family: 'Avigea', sans-serif;
             text-align: center;
+            @include mobile{
+                font-size: 22px;
+                align-items: center;
+            }
     }
         .hamburguesa{
             grid-column: 1 / 3;
+            
             background-color: #f77594;
         } 
         .papas{
@@ -53,7 +58,28 @@
             background-color: #7FE2D8
         } 
         
+@include mobile{
+    margin:10px;
+    padding: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr;
+    gap: 5px;
+    .hamburguesa{
+        grid-column: 1 / 2;
+    } 
+    .papas{
+        grid-column: 1 / 2; 
+    }
 
+    .bebida{
+        grid-column: 2 / 3;
+    } 
+    .tragosC{
+        grid-column: 2 / 3;
+    }
+
+
+    }
 }
 
 
@@ -72,6 +98,10 @@
         li{
             font-weight: bold;
         }
+
+    @include mobile{
+        width: 100%;
+    }    
     } 
     .bebidas{
         width: 50%;
@@ -85,6 +115,15 @@
         li{
             font-weight: bold;
         }
+        @include mobile{
+            width: 100%;
+        }
     } 
+
+@include mobile{
+    flex-direction: column;
+    
+}
+
 }
 

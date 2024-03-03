@@ -8,9 +8,16 @@
             color: white;
             font-family: 'Avigea', sans-serif;
             font-size: 45px;
+
+            @include mobile{
+                font-size: 22px;
+                top: 80px;
+            }
     }
     #imagenInicio{
         width: 100%;
         height: 100%;
+        margin-bottom: 0;
+        
     }
 }
