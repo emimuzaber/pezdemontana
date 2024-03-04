@@ -248,6 +248,7 @@ footer .section-footer .contacto h3 {
   width: 80%;
   height: 50%;
   margin-left: 10%;
+  margin-bottom: 5%;
 }
 .container-form #form-reserva {
   border: solid #154360;
@@ -259,6 +260,11 @@ footer .section-footer .contacto h3 {
   height: 600px;
   border-radius: 0 10px 10px 0;
   margin-top: 15px;
+}
+@media screen and (max-width: 767px) {
+  .container-form #imagen-reserva {
+    display: none;
+  }
 }
 
 #contacto-titulo {
@@ -272,6 +278,20 @@ footer .section-footer .contacto h3 {
   display: flex;
   justify-content: space-around;
 }
+@media screen and (max-width: 767px) {
+  .seccion-info-contacto {
+    flex-direction: column;
+  }
+  .seccion-info-contacto h2 {
+    text-align: center;
+  }
+  .seccion-info-contacto iframe {
+    width: 350px;
+    height: 200px;
+    justify-content: center;
+    margin-left: 5%;
+  }
+}
 
 .seccion-contacto {
   display: flex;
@@ -280,6 +300,29 @@ footer .section-footer .contacto h3 {
 .seccion-contacto #logo-whatsapp-contacto {
   width: 50px;
   height: 50px;
+}
+@media screen and (max-width: 767px) {
+  .seccion-contacto .div-contacto-direccion {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form-contacto {
+    width: 80%;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  .form-contacto h2 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .whatsapp-contacto {
+    display: flex;
+    gap: 15px;
+  }
 }
 
 #galeria-titulo {
@@ -296,6 +339,18 @@ footer .section-footer .contacto h3 {
 #video #video-galeria {
   width: 700px;
   height: 400px;
+}
+@media screen and (max-width: 767px) {
+  #video #video-galeria {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .h2-galeria {
+    text-align: center;
+  }
 }
 
 .galeria-container {
@@ -320,6 +375,23 @@ footer .section-footer .contacto h3 {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media screen and (max-width: 767px) {
+  .galeria-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    margin: 10px;
+    grid-auto-rows: 300px;
+  }
+  .galeria-container .galeria-patio:nth-child(1) {
+    grid-column: 1/2;
+  }
+  .galeria-container .galeria-patio:nth-child(4) {
+    grid-column: 2/3;
+  }
+  .galeria-container .galeria-patio:nth-child(5) {
+    grid-column: 1/3;
+  }
+}
 
 .galeria-container-bar {
   display: grid;
@@ -336,6 +408,13 @@ footer .section-footer .contacto h3 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+@media screen and (max-width: 767px) {
+  .galeria-container-bar {
+    grid-gap: 5px;
+    margin: 10px;
+    grid-auto-rows: 300px;
+  }
 }
 
 .div-bienvenida {

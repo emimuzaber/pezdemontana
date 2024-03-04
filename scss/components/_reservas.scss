@@ -11,15 +11,22 @@
     width: 80%;
     height: 50%;
     margin-left: 10%;
+    margin-bottom: 5%;
     #form-reserva{
         border: solid #154360;
         border-radius: 10px 0 0 10px;
         padding: 5px;
+        
     }
     #imagen-reserva{
         width: 500px;
         height: 600px;
         border-radius: 0 10px 10px 0;
         margin-top: 15px;
+
+        @include mobile{
+            display: none;
+    
+        }
     }
 }

@@ -3,11 +3,25 @@
     margin-top: 150px;
     margin-bottom: 20px;
     font-family: 'Avigea', sans-serif;
+
 }
 
 .seccion-info-contacto{
     display: flex;
     justify-content: space-around;
+
+    @include mobile{
+        flex-direction: column;
+        h2{
+            text-align: center;
+        }
+        iframe{
+            width: 350px;
+            height: 200px;
+            justify-content: center;
+            margin-left: 5%;
+        }
+    }
 }
 
 .seccion-contacto{
@@ -16,5 +30,31 @@
     #logo-whatsapp-contacto{
         width: 50px;
         height: 50px;
+    }
+
+    @include mobile{
+        .div-contacto-direccion{
+            display: none;
+        }
+    }
+}
+
+.form-contacto{
+    @include mobile{
+        h2{
+            text-align: center;
+        }
+        width: 80%;
+        justify-content: center;
+        margin-left: 5%;
+    }
+    
+    
+}
+
+.whatsapp-contacto{
+    @include mobile{
+        display: flex;
+        gap: 15px;
     }
 }
