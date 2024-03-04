@@ -47,6 +47,10 @@
         width: 80%;
         justify-content: center;
         margin-left: 5%;
+
+        button{
+            margin-top: 10px;
+        }
     }
     
     
@@ -56,5 +60,6 @@
     @include mobile{
         display: flex;
         gap: 15px;
+        margin: 50px;
     }
 }

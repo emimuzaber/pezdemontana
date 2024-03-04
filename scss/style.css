@@ -316,12 +316,16 @@ footer .section-footer .contacto h3 {
   .form-contacto h2 {
     text-align: center;
   }
+  .form-contacto button {
+    margin-top: 10px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .whatsapp-contacto {
     display: flex;
     gap: 15px;
+    margin: 50px;
   }
 }
 
@@ -442,6 +446,6 @@ footer .section-footer .contacto h3 {
 }
 @media screen and (max-width: 767px) {
   .div-bienvenida #imagenInicio {
-    height: 200%;
+    height: 500%;
   }
 }/*# sourceMappingURL=style.css.map */
