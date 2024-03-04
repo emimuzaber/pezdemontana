@@ -4,7 +4,7 @@
 }
 
 .navbar{
-    background-color: #154360;
+    background-color: #093147;
     position: fixed;
     width: 100%;
     top: 0;
@@ -25,6 +25,9 @@
         font-size: 20px;
         .nav-link{
          color: white;
+         &:hover{
+            color: #b7c6d8;
+         }
         }
         
         
