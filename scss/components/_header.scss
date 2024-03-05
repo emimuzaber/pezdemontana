@@ -12,6 +12,16 @@
      .img-nav{
         width: 100px;
         height: 85px;
+        animation: rotar 5s linear 1;
+     }
+
+     @keyframes rotar {
+      from{
+         transform: rotateY(180deg);
+      }
+      to{
+         transform: rotateY(360deg);
+      }
      }
 
      button{

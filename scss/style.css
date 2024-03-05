@@ -20,6 +20,15 @@
 .navbar .img-nav {
   width: 100px;
   height: 85px;
+  animation: rotar 5s linear 1;
+}
+@keyframes rotar {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 @media screen and (max-width: 767px) {
   .navbar button {
@@ -101,6 +110,15 @@ footer .section-footer .contacto h3 {
 .navbar .img-nav {
   width: 100px;
   height: 85px;
+  animation: rotar 5s linear 1;
+}
+@keyframes rotar {
+  from {
+    transform: rotateY(180deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 @media screen and (max-width: 767px) {
   .navbar button {
