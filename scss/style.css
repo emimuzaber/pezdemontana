@@ -20,7 +20,7 @@
 .navbar .img-nav {
   width: 100px;
   height: 85px;
-  animation: rotar 5s linear 1;
+  animation: rotar 2s linear 1;
 }
 @keyframes rotar {
   from {
@@ -110,7 +110,7 @@ footer .section-footer .contacto h3 {
 .navbar .img-nav {
   width: 100px;
   height: 85px;
-  animation: rotar 5s linear 1;
+  animation: rotar 2s linear 1;
 }
 @keyframes rotar {
   from {
