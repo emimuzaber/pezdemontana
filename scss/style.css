@@ -231,6 +231,7 @@ footer .section-footer .contacto h3 {
 }
 .carta-descripcion .gastronomia li p {
   font-style: italic;
+  text-align: center;
 }
 @media screen and (max-width: 767px) {
   .carta-descripcion .gastronomia {
